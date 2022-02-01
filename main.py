@@ -26,7 +26,7 @@ modPred = reg.predict(x)
 print('R2(Model): ', r2_score(y,modPred)*100)
 print('RMSE(Model): ', np.sqrt(mean_squared_error(y,modPred)))
 print('RMSE(Theory): ', np.sqrt(mean_squared_error(y,z)))
-
+print(modPred)
 
 # Graphing
 plt.style.use('ggplot')
